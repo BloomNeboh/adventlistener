@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eliud — Tourism Marketing Manager & Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="assets/logos/linkedin.png">
+</head>
+<body>
+  <div class="background">
+    <div class="bg-gradient"></div>
+    <div class="bg-grid"></div>
+    <canvas id="particleCanvas" aria-hidden="true"></canvas>
+  </div>
+
+  <div id="ripple-root" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a href="#home" class="logo reveal"><span>Eliud</span><span class="accent">M</span></a>
+    <nav class="site-nav reveal" aria-label="Primary">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#referees">Referees</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button id="themeToggle" class="theme-toggle reveal" type="button" aria-label="Toggle theme">
+      <span class="icon icon-sun"></span>
+      <span class="icon icon-moon"></span>
+    </button>
+  </header>
+
+  <main id="home">
+    <section class="hero reveal">
+      <div class="hero-copy">
+        <p class="eyebrow">Tourism Marketing Manager & Web Developer</p>
+        <h1>Hey, I'm Eliud.</h1>
+        <p class="tagline">Strategizing tourism stories with code and rhythm — every funnel drops like your favourite hook.</p>
+        <div class="cta-group">
+          <a class="btn primary" href="assets/Neboh_CV.pdf" target="_blank" rel="noopener">Download CV</a>
+          <a class="btn ghost" href="#coffee">Book a Coffee Chat</a>
+        </div>
+      </div>
+      <figure class="hero-visual">
+        <span class="hero-glow"></span>
+        <img src="assets/hero/profile.jpg" alt="Portrait of Eliud">
+      </figure>
+    </section>
+
+    <section class="snapshot reveal">
+      <div class="snapshot-card">
+        <span class="snapshot-label">Campaigns Guided</span>
+        <span class="snapshot-value" data-count="78">0</span>
+        <span class="snapshot-sub">Tourism launches & brand rollouts</span>
+      </div>
+      <div class="snapshot-card">
+        <span class="snapshot-label">Avg ROI Lift</span>
+        <span class="snapshot-value" data-count="164">0</span>
+        <span class="snapshot-sub">% boost from data-backed funnels</span>
+      </div>
+      <div class="snapshot-card">
+        <span class="snapshot-label">Web Builds</span>
+        <span class="snapshot-value" data-count="42">0</span>
+        <span class="snapshot-sub">Experiential, fast, conversion-first</span>
+      </div>
+      <div class="snapshot-card">
+        <span class="snapshot-label">Stages & Panels</span>
+        <span class="snapshot-value" data-count="18">0</span>
+        <span class="snapshot-sub">Tourism & digital storytelling</span>
+      </div>
+    </section>
+
+    <section id="about" class="about reveal">
+      <div class="about-copy">
+        <h2>About</h2>
+        <p>I build immersive tourism narratives, weaving culture, data, and design into journeys that convert. From crafting destination experiences to prototyping high-converting web funnels, I amplify stories that deserve the spotlight.</p>
+      </div>
+      <div class="value-grid">
+        <article class="value-card">
+          <h3>Creativity</h3>
+          <p>Every brief becomes a stage for new textures, motion, and hooks that make your audience dance along.</p>
+        </article>
+        <article class="value-card">
+          <h3>Reliability</h3>
+          <p>Roadmaps, reporting, and delivery rhythms built for stakeholders who cannot miss a beat.</p>
+        </article>
+        <article class="value-card">
+          <h3>Digital Excellence</h3>
+          <p>Code, campaigns, and content tuned for speed, accessibility, and measurable outcomes.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="experience reveal">
+      <h2>Experience</h2>
+      <div class="timeline">
+        <article class="timeline-card">
+          <header>
+            <h3>Tourism Marketing Lead</h3>
+            <span>2018 — Present</span>
+          </header>
+          <ul>
+            <li>Architected integrated funnel strategies across East African destinations.</li>
+            <li>Directed cross-channel storytelling with 30% YoY growth in bookings.</li>
+            <li>Built measurement frameworks aligning DMO stakeholders around shared KPIs.</li>
+          </ul>
+        </article>
+        <article class="timeline-card">
+          <header>
+            <h3>Web Development & Branding</h3>
+            <span>2015 — Present</span>
+          </header>
+          <ul>
+            <li>Designed and developed responsive, conversion-led tourism portals.</li>
+            <li>Delivered brand systems, tone, and launch campaigns for hospitality ventures.</li>
+            <li>Implemented analytics, CRO, and A/B testing cycles to sustain momentum.</li>
+          </ul>
+        </article>
+        <article class="timeline-card">
+          <header>
+            <h3>Content Direction & Production</h3>
+            <span>2013 — Present</span>
+          </header>
+          <ul>
+            <li>Produced long-form and microcontent that blends storytelling with SEO insight.</li>
+            <li>Curated visual narratives, motion reels, and micro-campaigns for social virality.</li>
+            <li>Mentored creative teams through ideation sprints and launch retrospectives.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="projects reveal">
+      <header class="section-heading">
+        <h2>Flagship Projects</h2>
+        <p>Each case blends experience design, rhythm-driven storytelling, and performance marketing.</p>
+      </header>
+      <div class="case-grid">
+        <article class="case-card">
+          <div class="case-media">
+            <img src="assets/hero/profile.jpg" alt="Lakefront Luxe campaign mockup">
+          </div>
+          <div class="case-body">
+            <div class="case-chips">
+              <span>Role: Lead Strategist</span>
+              <span>Stack: Next.js • GSAP • HubSpot</span>
+            </div>
+            <h3>Lakefront Luxe — Destination Relaunch</h3>
+            <p class="case-problem">The resort needed to reposition as the region’s creative retreat after stagnant bookings.</p>
+            <ul class="case-process">
+              <li>Immersive discovery workshops with artist residencies and tourism boards.</li>
+              <li>Story-driven web experience with dynamic itinerary microsites.</li>
+              <li>Automated nurture funnels with segmented storytelling playlists.</li>
+            </ul>
+            <p class="case-outcome"><strong>Impact:</strong> 212% uplift in bookings, 3x dwell time, 76% newsletter growth.</p>
+            <a class="btn inline" href="#" aria-label="View Lakefront Luxe case study">View Live Prototype</a>
+          </div>
+        </article>
+
+        <article class="case-card">
+          <div class="case-media">
+            <img src="assets/refs/ref1.jpg" alt="Brandscape Africa branding boards">
+          </div>
+          <div class="case-body">
+            <div class="case-chips">
+              <span>Role: Creative Technologist</span>
+              <span>Stack: Svelte • Tailwind • Airtable</span>
+            </div>
+            <h3>Brandscape Africa — Travel Trade Platform</h3>
+            <p class="case-problem">Needed a digital showroom to connect boutique lodges with tour operators.</p>
+            <ul class="case-process">
+              <li>Rapid prototyping of inventory flows and trade dashboards.</li>
+              <li>Brand identity system with kinetic typography and neon gradients.</li>
+              <li>Programmatic content engine delivering tailored itineraries.</li>
+            </ul>
+            <p class="case-outcome"><strong>Impact:</strong> 4.8× lead velocity, 91% adoption among priority partners.</p>
+            <a class="btn inline" href="#" aria-label="View Brandscape Africa case study">Read Case Study</a>
+          </div>
+        </article>
+
+        <article class="case-card">
+          <div class="case-media">
+            <img src="assets/refs/ref2.jpg" alt="Safari Sessions experience screens">
+          </div>
+          <div class="case-body">
+            <div class="case-chips">
+              <span>Role: Experience Designer</span>
+              <span>Stack: Vue • GSAP • Contentful</span>
+            </div>
+            <h3>Safari Sessions — Hybrid Experience</h3>
+            <p class="case-problem">Needed to translate in-person guided tours into a high-touch virtual experience.</p>
+            <ul class="case-process">
+              <li>Designed cinematic storytelling flow with adaptive audio beats.</li>
+              <li>Built collaborative planning tools for travel advisors and guests.</li>
+              <li>Integrated sentiment analysis to refine storytelling in real time.</li>
+            </ul>
+            <p class="case-outcome"><strong>Impact:</strong> 38% higher NPS, 2× upsell rate, 1.5M views on launch teaser.</p>
+            <a class="btn inline" href="#" aria-label="View Safari Sessions experience">Explore Experience</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="referees" class="referees reveal">
+      <header class="section-heading">
+        <h2>Referees</h2>
+        <p>Voices from partners who’ve ridden the rhythm of our collaborations.</p>
+      </header>
+      <div class="ref-grid">
+        <article class="ref-card">
+          <img src="assets/refs/ref1.jpg" alt="Portrait of Nyasha M." class="ref-avatar">
+          <h3>Nyasha M.</h3>
+          <span class="ref-role">GM, Lakefront Luxe</span>
+          <p>“Eliud translated our lakeside heartbeat into a digital stage that never sleeps. Strategy, storytelling, and sonic energy in perfect sync.”</p>
+          <a class="ref-link" href="https://wa.me/254700000001" target="_blank" rel="noopener">
+            <img src="assets/logos/whatsapp.png" alt="WhatsApp icon">
+          </a>
+        </article>
+        <article class="ref-card">
+          <img src="assets/refs/ref2.jpg" alt="Portrait of Farah O." class="ref-avatar">
+          <h3>Farah O.</h3>
+          <span class="ref-role">Founder, Brandscape Africa</span>
+          <p>“He sees the entire journey. From first beat to encore, Eliud orchestrated tech, story, and data into a standing ovation.”</p>
+          <a class="ref-link" href="https://wa.me/254700000002" target="_blank" rel="noopener">
+            <img src="assets/logos/whatsapp.png" alt="WhatsApp icon">
+          </a>
+        </article>
+        <article class="ref-card">
+          <img src="assets/refs/ref3.jpg" alt="Portrait of Daniel K." class="ref-avatar">
+          <h3>Daniel K.</h3>
+          <span class="ref-role">Creative Director, Safari Sessions</span>
+          <p>“Beyond the visuals, Eliud engineers emotion. Our hybrid tours now pulse with momentum and conversion.”</p>
+          <a class="ref-link" href="https://wa.me/254700000003" target="_blank" rel="noopener">
+            <img src="assets/logos/whatsapp.png" alt="WhatsApp icon">
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section class="toolbelt reveal">
+      <header class="section-heading">
+        <h2>Toolbelt & Spotlight</h2>
+        <p>Certifications, programs, and partners that keep the craft evolving.</p>
+      </header>
+      <div class="toolbelt-row">
+        <div class="tool-card">
+          <span>Google Analytics 4</span>
+          <p>Certified Measurement Partner</p>
+        </div>
+        <div class="tool-card">
+          <span>Adobe Creative Suite</span>
+          <p>Motion & Visual Systems</p>
+        </div>
+        <div class="tool-card">
+          <span>HubSpot CRM</span>
+          <p>Inbound & RevOps Architect</p>
+        </div>
+        <div class="tool-card">
+          <span>Meta Blueprint</span>
+          <p>Advanced Campaign Planning</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="journal reveal">
+      <header class="section-heading">
+        <h2>Latest Drops</h2>
+        <p>Fresh perspectives, events, and releases from the lab.</p>
+      </header>
+      <div class="journal-grid">
+        <article class="journal-card">
+          <span class="journal-label">Workshop</span>
+          <h3>Designing Tourism Funnels That Groove</h3>
+          <p>Session recap from Nairobi Creators Summit with take-home frameworks and playlist insights.</p>
+          <a class="btn inline" href="#" target="_blank" rel="noopener">Read Recap</a>
+        </article>
+        <article class="journal-card">
+          <span class="journal-label">Article</span>
+          <h3>Why Destination Brands Need Sonic Storytelling</h3>
+          <p>Bridging experiential marketing with digital product design for tourism boards.</p>
+          <a class="btn inline" href="#" target="_blank" rel="noopener">Open Article</a>
+        </article>
+        <article class="journal-card">
+          <span class="journal-label">Podcast</span>
+          <h3>Code Meets Culture</h3>
+          <p>Featured on the “City Pulse” podcast discussing hybrid travel experiences.</p>
+          <a class="btn inline" href="#" target="_blank" rel="noopener">Listen Now</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact reveal">
+      <header class="section-heading">
+        <h2>Contact</h2>
+        <p>Let’s build the next experience together. Drop a line or hit the icons.</p>
+      </header>
+      <div class="contact-content">
+        <form id="contactForm" novalidate>
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" placeholder="Your name">
+            <small class="error"></small>
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" placeholder="name@example.com">
+            <small class="error"></small>
+          </label>
+          <label>
+            <span>Project Pulse</span>
+            <textarea name="message" placeholder="Tell me about your idea or destination."></textarea>
+            <small class="error"></small>
+          </label>
+          <button class="btn primary" type="submit">Send Message</button>
+          <p class="form-feedback" role="status" aria-live="polite"></p>
+        </form>
+        <div class="contact-icons">
+          <a href="mailto:hello@example.com" target="_blank" rel="noopener" aria-label="Email">
+            <img src="assets/logos/email.png" alt="Email icon">
+          </a>
+          <a href="https://wa.me/254700000004" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <img src="assets/logos/whatsapp.png" alt="WhatsApp icon">
+          </a>
+          <a href="https://facebook.com/" target="_blank" rel="noopener" aria-label="Facebook">
+            <img src="assets/logos/facebook.png" alt="Facebook icon">
+          </a>
+          <a href="https://linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <img src="assets/logos/linkedin.png" alt="LinkedIn icon">
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="coffee" class="coffee reveal">
+      <div class="coffee-copy">
+        <span class="coffee-icon">☕</span>
+        <h2>Let’s talk business, web, tourism, and ideas. Book a coffee meeting.</h2>
+        <p>I’ll bring the playlists and prototypes; you bring the vision.</p>
+        <div class="cta-group">
+          <a class="btn primary" href="https://cal.com/" target="_blank" rel="noopener">Schedule on Cal.com</a>
+          <a class="btn ghost" href="https://wa.me/254700000004" target="_blank" rel="noopener">WhatsApp Coffee Chat</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>© <span id="footerYear"></span> Eliud M. Crafted with neon, narrative, and nuance.</small>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
